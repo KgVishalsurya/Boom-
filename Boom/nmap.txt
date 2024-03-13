@@ -1,0 +1,13 @@
+1)nmap -Pn <target_IP_or_hostname>  => -Pn: Skips DNS resolution (faster on large networks).
+
+2)nmap -sS <target_IP_or_hostname> =>  -sS: Sends TCP SYN packets to check for open ports.
+
+3)nmap -sU <target_IP_or_hostname> => -sU: Uses UDP packets for scanning.
+
+4)nmap -O <target_IP_or_hostname> => -O: Attempts to identify the operating system.
+
+5)nmap -sV <target_IP_or_hostname> => -sV: Scans for service and application versions.
+
+5)nmap --script <script_name> <target_IP_or_hostname> => --script: Use specific Nmap scripts for detailed checks.
+
+6)nmap -v <target_IP_or_hostname> => nmap -v <target_IP_or_hostname>

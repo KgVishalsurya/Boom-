@@ -1,0 +1,7 @@
+1.pip install SpeechRecognition
+2.pip install pyttsx3
+3.pip install PyAudio
+    IN THE CASE OF STEP 3 ERROR TRY THIS CMD
+            ( pip install pipwin)
+4.pipwin install pyaudio
+5.python -m pip install [package_name]

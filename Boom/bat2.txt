@@ -1,0 +1,27 @@
+1).@echo off
+echo to start the incognito mode using the  batch scripting
+pause
+start /d "" chrome.exe -incognito https://www.google.com
+
+2).@echo off
+echo hi
+:a
+set /p input="enter something : ": 
+echo %input% , hello my dear %input%
+pause
+goto :a
+
+3).@echo off
+for %%i in (1,2,3) do echo %%i
+
+4).@echo off
+for /l %%i in (1,2,3) do echo %%i
+
+5).@echo off
+for /F "tokens=*" %%i in ('dir /b') do echo %%i
+
+6).@echo off
+for /F "tokens=*" %%i in ('dir /b "%userprofile%\Desktop"') do echo %%i
+
+
+

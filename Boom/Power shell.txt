@@ -1,0 +1,23 @@
+                [.These all cmd are linix cmds using in powershell:]
+
+1.$PSVesionTable => version of powershell
+
+2.pwd => present working directory
+
+3.ls
+
+4.cd => change directore
+
+5.mkdir => Making a folder
+
+6.get-content (file names)  
+
+7.set-content (file names) ("inputing new names")
+
+8.cp => copying
+
+9.mv => moved to copyed file
+
+10.rm
+
+11.get-Alias

@@ -1,0 +1,55 @@
+# Creating a secure folder 
+1. md (folder name)\   
+
+# Deleting a secure folder  
+2.rd (folder name)\  
+ 
+# Hideing a folder     
+3.attrib +h +s +r (folder name)
+
+# Showing the hided folder 
+4.attrib -h -s -r (folder name)
+
+# Shutdown restart logout
+5.shutdown ,s AND ,r AND ,l
+
+# Shutdown using timeing
+6.shutdown /s /t 3...
+
+# Showing the message before shutdown
+7.shutdown /s /t 4... /c ("any message")
+
+8.color help
+
+# Changing the title of the cmd promt
+9.title (any name)
+
+# Get a list of all installed programs
+10.wmic product get name
+
+11.dir | clip #go to txt and copy paste
+
+# Opeing the website using cmd
+12.start www.googe.com
+
+# Checking ipaddss working or not for anywwebsite
+13.ping www.google.com
+
+14.tasklist and tasklist /v
+15.wmic product get name
+16.ping 'ip address' 
+17.ren [oldfilename  newfile name]
+
+#To create a file :
+18.type nul> [filename]
+
+#copying and moving file:
+19.copy [filename distinationname] 
+19.move "    "   "    "
+
+20.pyhon.exe -m pip install --upgrade pip
+
+
+
+
+

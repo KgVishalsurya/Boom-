@@ -1,0 +1,43 @@
+1.ipconfig
+2.ipconfig /all 
+3.ipconfig /all | findstr dns 
+4.ipconfig /release
+5.ipconfig /renew  
+6.ipconfig /displaydns  
+7.ipconfig /displaydns | clip
+8.ipconfig /flushdns
+9.nslookup networkchuck.com
+10.nslookup -type=mx (or) ptr networkchuck.com
+11.getmac /v
+12.powercfg /energy           #copy,paste
+13.powercfg /batteryreport    #copy,paste
+14.assoc (AND) assoc .mp4=VLC.vlc
+15.chkdsk /f (AND) chkdsk /r
+16.sfc /scannow
+17.DISM /Online /Cleanup-image /CheckHealth
+18.DISM /Online /Cleanup-image /ScanHealth
+19.DISM /Online /Cleanup-image /RestoreHealth
+20.tasklist | findstr script
+21.taskkill /f (/pid 20184)
+22.netsh wlan show wlanreport
+23.netsh interface show interface
+24.netsh interface ip show dnsservers
+25.netsh advfirewall set allprofiles state off
+26.ping networkchuck.com
+27.ping -t networkchuck.com
+28.tracert networkchuck.com
+29.tracert -d 
+30.netstat-af
+31.netstat -o
+32.netstat -e -t 5
+33.route print 
+34.route add
+35.route delete
+36.shutdown /r /fw /f /t 0
+37.netsh wlan set hostednetwork mode=allow ssid=name of hotspot key=password12344...
+38.netsh wlan start hostednetwork
+39.netsh wlan stop hostednetwork
+40.wmic bios get serialnumber
+41.help
+42.pip install azure-iot-hub
+43.rmdir /s " folder name"  => used to force delete any file non recursively

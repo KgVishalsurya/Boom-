@@ -1,0 +1,15 @@
+    Managing task and services using cmd:
+1.tasklist
+2.taskkill /PID [no.]
+3.net start
+4.net stop "Windows Time"
+    
+   Getting sys & programe info:
+1.wmic
+1.a)/output:C:\[filename] product get name,version
+2.msdt.exe -id devicediagnostics ==>TROUBLE SHOOTER
+3.arp -a ==>Show all the connected ip addresh
+4.msg * balls
+
+   log the windows while scanning the system if it seems to stuck:
+1)C:\Windows\Logs\CBS. 

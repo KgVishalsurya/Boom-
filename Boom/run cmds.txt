@@ -1,0 +1,6 @@
+                 Windows + R cmds
+resmone.exe
+
+prefetch
+
+wmic cpu get NumberOfCores,NumberOfLogicalProcessors
